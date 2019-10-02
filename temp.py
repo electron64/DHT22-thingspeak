@@ -26,7 +26,7 @@ def main():
     print today.strftime('Nous sommes le:  %d, %b %Y  %H:%M"')
     print '\n\n Starting SENSOR ...'
 
-    baseURL = 'https://api.thingspeak.com/update?api_key=0CCT1NR5MO8K7Q1A'
+    baseURL = 'https://api.thingspeak.com/update?api_key=PUT_YOUR_API_KEY_HERE'
    
     while True:
         try:
